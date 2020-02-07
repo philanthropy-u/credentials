@@ -34,3 +34,7 @@ isort==4.2.5
 
 # django-storages version 1.9 drops support for boto storage backend.
 django-storages<1.9
+
+
+# new version is failing on travis.
+docker-compose<1.25.4
