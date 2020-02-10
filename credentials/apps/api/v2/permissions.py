@@ -48,4 +48,5 @@ class CanReplaceUsername(permissions.BasePermission):
     Grants access to the Username Replacement API for the service user.
     """
     def has_permission(self, request, view):
+        # pylint: disable=literal-used-as-attribute
         return request.user.username == getattr(settings, "USERNAME_REPLACEMENT_WORKER")

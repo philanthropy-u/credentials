@@ -15,7 +15,7 @@ LOGGER_NAME = 'credentials.apps.credentials.issuers'
 
 
 # pylint: disable=no-member
-class CertificateIssuerBase(object):
+class CertificateIssuerBase:
     """ Tests an Issuer class and its methods."""
     issuer = None
     cert_factory = None
@@ -135,6 +135,7 @@ class ProgramCertificateIssuerTests(CertificateIssuerBase, TestCase):
     cert_type = ProgramCertificate
 
     def setUp(self):
+        # pylint: disable=super-method-not-called
         self.site = SiteFactory()
         self.site_config = SiteConfigurationFactory(site=self.site)
         self.program = ProgramFactory(site=self.site)
