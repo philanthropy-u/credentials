@@ -151,9 +151,9 @@ class ExampleCredential(SocialMediaMixin, ThemeViewMixin, TemplateView):
             )],
             hours_of_effort=None,
             courses=[
-                {'title':'Example Course 1'},
-                {'title':'Example Course 2'},
-                {'title':'Example Course 3'}
+                {'title': 'Example Course 1'},
+                {'title': 'Example Course 2'},
+                {'title': 'Example Course 3'}
             ],
         )
 
