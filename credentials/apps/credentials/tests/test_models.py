@@ -128,7 +128,8 @@ class ProgramCertificateTests(SiteMixin, TestCase):
                     certificate_logo_image_url='http://example.com/fakex.jpg'
                 )
             ],
-            hours_of_effort=None
+            hours_of_effort=None,
+            courses=courses,
         )
 
         body = {
