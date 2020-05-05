@@ -60,6 +60,6 @@ SOCIAL_AUTH_REDIRECT_IS_HTTPS = str2bool(os.environ.get('SOCIAL_AUTH_REDIRECT_IS
 
 JWT_AUTH['JWT_ISSUERS'].append({
     'AUDIENCE': 'lms-key',
-    'ISSUER': 'http://edx.devstack.lms:18000/oauth2',
+    'ISSUER': 'http://local.philanthropyu.org:18000/oauth2',
     'SECRET_KEY': 'lms-secret',
 })
