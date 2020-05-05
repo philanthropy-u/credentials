@@ -34,6 +34,7 @@ module.exports = {
         'base.style-rtl': './credentials/static/sass/main-rtl.scss',
         'openedx.certificate.style-ltr': './credentials/apps/credentials_theme_openedx/static/sass/certificate-ltr.scss',
         'openedx.certificate.style-rtl': './credentials/apps/credentials_theme_openedx/static/sass/certificate-rtl.scss',
+        'philu.certificate.style-ltr': './credentials/apps/credentials_theme_philu/static/sass/certificate-ltr.scss',
         'sharing': './credentials/static/js/sharing.js',
         'analytics': './credentials/static/js/analytics.js',
         'records': './credentials/static/components/RecordsFactory.jsx',

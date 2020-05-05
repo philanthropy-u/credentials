@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.humanize',
 ]
 
 THIRD_PARTY_APPS = [
@@ -66,6 +67,7 @@ PROJECT_APPS = [
     'credentials.apps.edx_django_extensions',
     'credentials.apps.credentials_theme_openedx',
     'credentials.apps.records',
+    'credentials.apps.credentials_theme_philu',
 ]
 
 INSTALLED_APPS += THIRD_PARTY_APPS
