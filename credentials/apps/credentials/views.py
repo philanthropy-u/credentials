@@ -95,6 +95,7 @@ class RenderCredential(SocialMediaMixin, ThemeViewMixin, TemplateView):
             'child_templates': self.get_child_templates(),
             'render_language': content_language if content_language else settings.LANGUAGE_CODE,
             'issue_date': visible_date,
+            'platform_name': self.request.site.siteconfiguration.platform_name,
 
             # NOTE: In the future this can be set to the course_name and/or seat type
             'page_title': program_details.type,
